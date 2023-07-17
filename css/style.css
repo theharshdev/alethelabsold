@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Login form CSS starts here */
+.mainBg{
+    background-image: url("../img/techbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h100{
+    height: 100vh;
+}
+
+.passInp,
+.userInp{
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    padding: 8px 20px 8px 32px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.userInp{
+    background-image: url(../img/user.png);
+    background-position: 6px 8px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.passInp{
+    background-image: url(../img/padlock.png);
+    background-position: 6px 8px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.subBtn{
+    background-color: rgb(26, 117, 105);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.subBtn:hover{
+    background-color: rgb(16, 78, 70);
+}
+
+.miniFont{
+    font-size: 10px;
+}
+
+.formBox{
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+/* CSS for navbar starts here */
+.navbar{
+    background-color: rgb(11, 81, 109);
+}
+
+.navlinks{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.navlinks:hover{
+    color: aliceblue;
+}
+
+.fa-user{
+    background-color: white;
+    color: rgb(16, 78, 70);
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.fa-arrows-up-down-left-right{
+    transform: rotate(134deg);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.fa-table-cells-large{
+    cursor: pointer;
+}
